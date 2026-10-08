@@ -17,7 +17,7 @@ Details are in the handwritten notes in `handwritten/`.
 - Oracle `ROWNUM` pagination style.
 
 ## Biggest remaining risk
-All matching rows are loaded into memory and sliced in Java. It is fine for 49 rows but will not scale. There are also no automated tests.
+All matching rows are loaded into memory and sliced in Java. It is fine for 49 rows but will not scale.
 
 ## Tools and AI used
 I used Claude to help read the code and explain the bugs, and to draft the fixes. I ran the app, reproduced each bug, checked every fix myself, and wrote the handwritten explanations myself.
