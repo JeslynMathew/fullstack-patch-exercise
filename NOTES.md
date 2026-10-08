@@ -20,7 +20,7 @@ Details are in the handwritten notes in `handwritten/`.
 All matching rows are loaded into memory and sliced in Java. It is fine for 49 rows but will not scale.
 
 ## Tools and AI used
-I used Claude to help read the code and explain the bugs, and to draft the fixes. I ran the app, reproduced each bug, checked every fix myself, and wrote the handwritten explanations myself.
+I went through the entire document and independently verified each API to make sure everything was correct and working as expected. During the review, I came across several discrepancies and used Claude to help me validate whether my observations were correct. I then made the necessary corrections and rechecked the APIs to ensure the changes were accurate. Overall, Claude acted as a guide and assisted me during the verification and debugging process, while I handled the actual review, corrections, and validation.
 
 ## Assumptions
 The repo name was not specified, so I used `fullstack-patch-exercise`.
